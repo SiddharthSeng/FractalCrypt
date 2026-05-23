@@ -1,0 +1,21 @@
+# ─────────────────────────────────────────────────────────────────────────────
+#  FractalCrypt  —  requirements.txt
+# ─────────────────────────────────────────────────────────────────────────────
+
+# ── Required for Key Visualizer + Key Fingerprint PNG Export ─────────────────
+# Enables fractal image rendering (Mandelbrot / Julia sets) on the
+# Visualizer tab, and saves key fingerprint PNG composites.
+# Without Pillow the Key Visualizer tab shows a friendly "install Pillow" prompt
+# and the app continues to function for encryption/decryption.
+Pillow>=9.0.0
+
+# ── Required for Drag & Drop file support ────────────────────────────────────
+# Enables dropping files from the OS file manager directly onto the
+# file lists in the Encrypt/Decrypt tab and the Shredder tab.
+# Without tkinterdnd2 the app falls back to button-based file selection.
+tkinterdnd2>=0.3.0
+
+# ── Required for building the standalone executable ──────────────────────────
+# fractal_build.py uses PyInstaller to bundle FractalCrypt into a single
+# folder distribution (dist/FractalCrypt/).  Not needed to run from source.
+pyinstaller>=5.0.0

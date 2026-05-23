@@ -1,0 +1,77 @@
+# ─────────────────────────────────────────────────────────────────────────────
+#  FractalCrypt  —  .gitignore
+# ─────────────────────────────────────────────────────────────────────────────
+
+# ── Python bytecode ──────────────────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyo
+
+# ── Distribution / packaging ─────────────────────────────────────────────────
+dist/
+build/
+*.egg-info/
+*.egg
+*.spec
+
+# ── PyInstaller artifacts ────────────────────────────────────────────────────
+# (fractal_build.py produces these)
+dist/
+build/
+FractalCrypt.spec
+
+# ── Virtual environments ─────────────────────────────────────────────────────
+venv/
+.venv/
+env/
+ENV/
+.env/
+
+# ── Environment variables / secrets ─────────────────────────────────────────
+.env
+.env.*
+*.key
+*.pem
+*.p12
+*.pfx
+
+# ── Encrypted output files (don't commit encrypted data to git) ───────────────
+*.fractal
+*.fractal.asc
+*.fractal.note
+
+# ── OS metadata ──────────────────────────────────────────────────────────────
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+desktop.ini
+
+# ── IDE / editor settings ────────────────────────────────────────────────────
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+.project
+.classpath
+
+# ── Testing / coverage ───────────────────────────────────────────────────────
+.coverage
+htmlcov/
+.pytest_cache/
+.mypy_cache/
+.tox/
+
+# ── Logs ─────────────────────────────────────────────────────────────────────
+*.log
+logs/
+
+# ── Temporary files ──────────────────────────────────────────────────────────
+*.tmp
+*.bak
+*.orig
