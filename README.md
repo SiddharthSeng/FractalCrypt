@@ -17,26 +17,30 @@
 
 ---
 
-```
+<div align="center">
+<pre>
 ┌─────────────────────────────────────────────────────────────┐
 │  🔮 FractalCrypt — Fractal File Encryption          _ □ ✕  │
 ├─────────────────────────────────────────────────────────────┤
-│  [🔒 Encrypt/Decrypt] [🔑 Visualizer] [📊 Analysis]        │
-│                  [📝 Notes] [🗑️ Shredder]                  │
+│  [🔒 Encrypt/Decrypt]  [🔑 Visualizer]  [📊 Analysis]      │
+│            [📝 Notes]  [🗑️  Shredder]                      │
 ├─────────────────────────────────────────────────────────────┤
-│  Files:  document.pdf              🟢 Ready                 │
-│          report.xlsx               🟢 Ready                 │
 │                                                             │
-│  Password: ••••••••••••            [👁]                    │
-│  Output:   /home/user/encrypted/   [Browse]                 │
-│  ☑ ASCII Armor  ☐ Folder Mode  ☐ Shred original after      │
+│  Files:  document.pdf                        🟢 Ready      │
+│          report.xlsx                         🟢 Ready      │
 │                                                             │
-│  [      🔒 ENCRYPT      ]  [      🔓 DECRYPT      ]        │
+│  Password: ••••••••••••                      [👁]          │
+│  Output:   /home/user/encrypted/             [Browse]      │
+│                                                             │
+│  ☑ ASCII Armor   ☐ Folder Mode   ☐ Shred original         │
+│                                                             │
+│  [      🔒 ENCRYPT      ]    [      🔓 DECRYPT      ]      │
 ├─────────────────────────────────────────────────────────────┤
 │  [12:34:01] ✅ document.pdf → document.fractal             │
 │  [12:34:02] ✅ HMAC-SHA256 integrity tag written           │
 └─────────────────────────────────────────────────────────────┘
-```
+</pre>
+</div>
 
 ---
 
