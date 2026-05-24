@@ -20,24 +20,24 @@
 <div align="center">
 <pre>
 ┌─────────────────────────────────────────────────────────────┐
-│  🔮 FractalCrypt — Fractal File Encryption          _ □ ✕  │
+│  FractalCrypt — Fractal File Encryption            _ [ ] X  │
 ├─────────────────────────────────────────────────────────────┤
-│  [🔒 Encrypt/Decrypt]  [🔑 Visualizer]  [📊 Analysis]      │
-│            [📝 Notes]  [🗑️  Shredder]                      │
+│  [ Encrypt/Decrypt ]   [ Visualizer ]   [ Analysis ]        │
+│          [ Notes ]     [ Shredder ]                         │
 ├─────────────────────────────────────────────────────────────┤
 │                                                             │
-│  Files:  document.pdf                        🟢 Ready      │
-│          report.xlsx                         🟢 Ready      │
+│  Files:  document.pdf                          [OK] Ready   │
+│          report.xlsx                           [OK] Ready   │
 │                                                             │
-│  Password: ••••••••••••                      [👁]          │
-│  Output:   /home/user/encrypted/             [Browse]      │
+│  Password:  ............                            [show]  │
+│  Output:    /home/user/encrypted/                 [Browse]  │
 │                                                             │
-│  ☑ ASCII Armor   ☐ Folder Mode   ☐ Shred original         │
+│  [x] ASCII Armor    [ ] Folder Mode    [ ] Shred original   │
 │                                                             │
-│  [      🔒 ENCRYPT      ]    [      🔓 DECRYPT      ]      │
+│  [      ENCRYPT      ]          [      DECRYPT      ]       │
 ├─────────────────────────────────────────────────────────────┤
-│  [12:34:01] ✅ document.pdf → document.fractal             │
-│  [12:34:02] ✅ HMAC-SHA256 integrity tag written           │
+│  [12:34:01]  (+)  document.pdf -> document.fractal          │
+│  [12:34:02]  (+)  HMAC-SHA256 integrity tag written         │
 └─────────────────────────────────────────────────────────────┘
 </pre>
 </div>
