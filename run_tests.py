@@ -21,7 +21,7 @@ def test_wrong_password():
         print(FAIL + " Should have raised ValueError!")
     except ValueError as e:
         print(PASS + " Correctly rejected wrong password.")
-        print("       Error: " + str(e).splitlines()[0])
+        print("       Error: " + str(e).splitlines()[0].encode(sys.stdout.encoding or 'utf-8', errors='replace').decode(sys.stdout.encoding or 'utf-8', errors='replace'))
     shutil.rmtree(tmpdir)
     print()
 
@@ -46,7 +46,7 @@ def test_tamper_detection():
         print(FAIL + " Should have raised ValueError!")
     except ValueError as e:
         print(PASS + " Correctly detected tampering.")
-        print("       Error: " + str(e).splitlines()[0])
+        print("       Error: " + str(e).splitlines()[0].encode(sys.stdout.encoding or 'utf-8', errors='replace').decode(sys.stdout.encoding or 'utf-8', errors='replace'))
     shutil.rmtree(tmpdir)
     print()
 
